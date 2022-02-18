@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #c88667;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+div {
+  border: 1px solid #3c3c3c;
+  width: 350px;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.margin-transform {
+  background-color: #8667c8;
+}
+
+.margin-transform h1 {
+  text-align: center;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.flexbox {
+  background-color: #67c886;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
